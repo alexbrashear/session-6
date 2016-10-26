@@ -9,7 +9,7 @@ Sort by:
 <ul class="recipes-list">
     <li ng-repeat="recipe in $ctrl.recipes | filter:$ctrl.query | orderBy:$ctrl.orderProp">
         <img ng-src="img/home/{{ recipe.image }}">
-        <hi><a href="#0"{{ recipe.title }}></a>
+        <h1><a href="#!recipes/{{ recipe.name }} ">{{ recipe.title }}</a></h1>
         <p>{{ recipe.description }}</p>
     </li>
 </ul>
