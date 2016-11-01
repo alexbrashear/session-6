@@ -2,7 +2,6 @@
 
     <h2>{{ $ctrl.recipe.title }}</h2>
 
-    <img ng-src="{{ $ctrl.recipe.mainImageUrl }}" />
     <img ng-src="img/home/{{$ctrl.mainImageUrl}}" class="recipe-detail-image" />
 
     <ul class="recipe-thumbs">
@@ -12,12 +11,21 @@
     </ul>
 
     <p>{{ $ctrl.recipe.description }}</p>
+    <div>
+        <h3>Ingredients</h3>
+        <ul class="ingredients">
+            <li ng-repeat="ingredient in $ctrl.recipe.ingredients">
+                <p>{{ ingredient.amount }} {{ ingredient.name }}</p>
+            </li>
+        </ul>
+    </div>
 
-    <h3>Ingredients</h3>
-    <ul class="ingredients">
-        <li ng-repeat="ingredient in $ctrl.recipe.ingredients">
-            {{ ingredient }}
-        </li>
-    </ul>
-
+    <div class="recipe-directions">
+        <h3>Directions</h3>
+        <ul class="directions">
+            <li ng-repeat="direction in $ctrl.recipe.directions">
+                <p>{{ $index+1 }}) {{ direction }}</p>
+            </li>
+        </ul>
+    </div>
 </div>

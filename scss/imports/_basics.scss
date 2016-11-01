@@ -27,6 +27,9 @@ ul {
 header {
 	color: $reddish;
 	padding: 1rem;
+	font-family: $roboto-slab;
+	font-style: italic;
+	font-weight: normal;
 	@media (min-width: $break-one){
 		padding: 0x;
 	}

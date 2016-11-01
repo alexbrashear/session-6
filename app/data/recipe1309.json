@@ -5,6 +5,68 @@
   "description": "Lasagna noodles piled high and layered full of three kinds of cheese to go along with the perfect blend of meaty and zesty, tomato pasta sauce all loaded with herbs.", 
   "mainImageUrl": "img/home/lasagna-1.png",
   "images": ["lasagna-1.png","lasagna-2.png","lasagna-3.png","lasagna-4.png"],
-
-  "ingredients": ["lasagna pasta", "tomatoes", "onions", "ground beef", "garlic", "cheese"]
+  "ingredients": [
+    {
+      "name": "sweet italian sausage",
+      "amount": "1 pound"
+    },
+    {
+      "name": "lean ground beef",
+      "amount": "3/4 pound"
+    },
+    {
+      "name": "minced onion",
+      "amount": "1/2 cup"
+    },
+    {
+      "name": "crushed tomatoes",
+      "amount": "1 (28 ounce) can"
+    },
+    {
+      "name": "garlic cloves, crushed",
+      "amount": "2"
+    },
+    {
+      "name": "tomato paste",
+      "amount": "2 (6 ounce) cans"
+    },
+    {
+      "name": "egg",
+      "amount": "1"
+    },
+    {
+      "name": "ricotta cheese",
+      "amount": "16 ounces"
+    },
+    {
+      "name": "lasagna noodles",
+      "amount": "12"
+    },
+    {
+      "name": "italian seasoning",
+      "amount": "1 teaspoon"
+    },
+    {
+      "name": "chopped fresh parsley",
+      "amount": "4 tablespoons"
+    },
+    {
+      "name": "grated parmesan cheese",
+      "amount": "3/4 cup"
+    },
+    {
+      "name": "water",
+      "amount": "1/2 cup"
+    },
+    {
+      "name": "white sugar",
+      "amount": "2 tablespoons"
+    }
+  ],
+  "directions": [
+                  "In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned. Stir in crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds, Italian seasoning, 1 tablespoon salt, pepper, and 2 tablespoons parsley. Simmer, covered, for about 1 1/2 hours, stirring occasionally.",
+                  "Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to 10 minutes. Drain noodles, and rinse with cold water. In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt.",
+                  "Preheat oven to 375 degrees F (190 degrees C).",
+                  "To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13 inch baking dish. Arrange 6 noodles lengthwise over meat sauce. Spread with one half of the ricotta cheese mixture. Top with a third of mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray, or make sure the foil does not touch the cheese.",
+                  "Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15 minutes before serving."]
 }

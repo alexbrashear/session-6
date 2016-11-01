@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,6 +28,9 @@ ul {
 header {
   color: #600;
   padding: 1rem;
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
+  font-weight: normal;
 }
 
 @media (min-width: 46.25rem) {
@@ -254,6 +258,10 @@ img {
 
 .recipe-thumbs img {
   padding: 0 0.5rem;
+}
+
+.recipe-directions {
+  margin-top: 1em;
 }
 
 /*# sourceMappingURL=styles.css.map */
