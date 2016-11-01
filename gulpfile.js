@@ -34,13 +34,13 @@ gulp.task('serve', ['sass'], function(){
 	gulp.watch(htmlSource).on('change', browserSync.reload);
 });
 
-gulp.task('deploy', function(){
+gulp.task('deploy', function() {
 	return gulp.src('./app/**/*')
 	.pipe(sftp({
 		host: 'oit2.scps.nyu.edu',
-		user: '****',
-		pass: '****',
-		remotePath: '/home/p/pezuaj/web/'
+		user: 'brasheaa',
+		pass: 'ab123890',
+		remotePath: '/home/b/brasheaa/web'
 	}));
 });
 
