@@ -250,10 +250,25 @@ img {
   margin-top: 1rem;
 }
 
+@media (min-width: 46.25rem) {
+  .recipe-detail-image {
+    width: 75%;
+    height: 75%;
+    float: left;
+  }
+}
+
 .recipe-thumbs {
   width: 100%;
   margin: 1rem 0;
   display: flex;
+}
+
+@media (min-width: 46.25rem) {
+  .recipe-thumbs {
+    width: 20%;
+    flex-direction: column;
+  }
 }
 
 .recipe-thumbs img {
@@ -262,6 +277,12 @@ img {
 
 .recipe-directions {
   margin-top: 1em;
+}
+
+@media (min-width: 46.25rem) {
+  .recipe-images-parent {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

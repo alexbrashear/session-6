@@ -2,13 +2,15 @@
 
     <h2>{{ $ctrl.recipe.title }}</h2>
 
-    <img ng-src="img/home/{{$ctrl.mainImageUrl}}" class="recipe-detail-image" />
+    <div class="recipe-images-parent">
+        <img ng-src="img/home/{{$ctrl.mainImageUrl}}" class="recipe-detail-image" />
 
-    <ul class="recipe-thumbs">
-        <li ng-repeat="img in $ctrl.recipe.images">
-            <img ng-src="img/home/{{img}}" ng-click="$ctrl.setImage(img)" />
-        </li>
-    </ul>
+        <ul class="recipe-thumbs">
+            <li ng-repeat="img in $ctrl.recipe.images">
+                <img ng-src="img/home/{{img}}" ng-click="$ctrl.setImage(img)" />
+            </li>
+        </ul>
+    </div>
     <div itemscope itemtype="https://schema.org/Recipe">
         <p>{{ $ctrl.recipe.description }}</p>
         <div>

@@ -25,11 +25,20 @@
 
 .recipe-detail-image {
     margin-top: 1rem;
+    @media (min-width: $break-one) {
+        width: 75%;
+        height: 75%;
+        float: left;
+    }
 }
 .recipe-thumbs {
     width: 100%;
     margin: 1rem 0;
     display: flex;
+    @media (min-width: $break-one) {
+        width: 20%;
+        flex-direction: column;
+    }
     img {
         padding: 0 0.5rem;
     }
@@ -37,4 +46,10 @@
 
 .recipe-directions {
     margin-top: 1em;
+}
+
+.recipe-images-parent {
+    @media (min-width: $break-one) {
+        display: flex;
+    }
 }
