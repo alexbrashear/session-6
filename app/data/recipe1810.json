@@ -1,0 +1,42 @@
+{
+  "name": "recipe1810", 
+  "title": "Hamburger", 
+  "date": "2012-10-20", 
+    "description": "A Hamburger (or often called as burger) is a type of food in the form of a rounded bread sliced in half and its Center is filled with patty which is usually taken from the meat, then the vegetables be lettuce, tomatoes and onions.", 
+  "mainImageUrl": "img/home/hamburger.png",
+  "images": ["hamburger.png", "hamburger.png", "hamburger.png", "hamburger.png"],
+  "ingredients": [
+    {
+      "name": "ground beef",
+      "amount": "2 pounds"
+    },
+    {
+      "name": "garlic cloves, minced",
+      "amount": "2"
+    },
+    {
+      "name": "egg, beaten",
+      "amount": "1"
+    },
+    {
+      "name": "cayenne pepper",
+      "amount": "1/8 teaspoon"
+    },
+    {
+      "name": "evaporated milk",
+      "amount": "3 tablespoons"
+    },
+    {
+      "name": "dry bread crumbs",
+      "amount": "3/4 cup"
+    },
+    {
+      "name": "Worcestershire sauce",
+      "amount": "2 tablespoons"
+    }
+  ],
+  "directions": [
+                  "Preheat grill for high heat.",
+                  "In a large bowl, mix the ground beef, egg, bread crumbs, evaporated milk, Worcestershire sauce, cayenne pepper, and garlic using your hands. Form the mixture into 8 hamburger patties.",
+                  "Lightly oil the grill grate. Grill patties 5 minutes per side, or until well done."]
+}
